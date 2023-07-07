@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+html .header,
+body .header {
+  background-color: rgba(249, 67, 61, 0.724);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+html .header h1,
+body .header h1 {
+  color: whitesmoke;
+  margin: 0;
+}
+html .box,
+body .box {
+  height: 60vh;
+  width: 60vw;
+  border-radius: 20px;
+  border-width: 20px;
+  border-style: outset;
+  border-color: rgba(249, 67, 61, 0.724);
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: row;
+}
+html .box .button-mapping,
+body .box .button-mapping {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin-top: 46px;
+  margin-left: 20px;
+  margin-bottom: 20%;
+  justify-content: space-between;
+  height: 80%;
+}
+html .box .button-mapping button,
+body .box .button-mapping button {
+  color: whitesmoke;
+  background-color: #737373;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  border: none;
+  border-style: outset;
+}
+html .box .button-mapping button:hover,
+body .box .button-mapping button:hover {
+  cursor: pointer;
+  background-color: #525252;
+}
+html .box .interface,
+body .box .interface {
+  background-color: lightgrey;
+  height: 80%;
+  width: 80%;
+  margin: 4% 0px 0px 2%;
+  border-radius: 20px;
+  border-style: outset;
+}
+html .box .interface div,
+body .box .interface div {
+  margin-left: 20px;
+}
+html .box .interface .view-balance,
+body .box .interface .view-balance {
+  margin-left: 20px;
+  color: #262626;
+}
+html .box .interface p,
+body .box .interface p {
+  margin-left: 4%;
+  margin-top: 4%;
+  color: #262626;
+}
+html .box .interface .quit-wrapper,
+body .box .interface .quit-wrapper {
+  position: absolute;
+  padding: 0;
+  background-color: lightgrey;
+  height: 20%;
+}
+html .footer,
+body .footer {
+  background-color: rgba(249, 67, 61, 0.724);
+  width: 100vw;
+  height: 23.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html .footer h1,
+body .footer h1 {
+  color: whitesmoke;
+}/*# sourceMappingURL=index.css.map */
